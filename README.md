@@ -2,37 +2,37 @@
 OKFN WordPress Theme
 =================
 
-OKFNWP is a WordPress theme built on Bootstrap and LESS.
+OKFNWP es un tema WordPress que corre en el sitio web de [okfn.es](http://okfn.es) construido sobre *Bootstrap* y *Less*.
 
-Getting Started
+Primeros pasos
 ---------------
-**You'll need the following installed before continuing:**
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+**Hay que tener instalado:**
+  * [Node.js](http://nodejs.org): se utiliza el instalador del sitio web de NodeJS.
+  * [Grunt](http://gruntjs.com/): se lanza con `[sudo] npm install -g grunt-cli`
+  * [Bower](http://bower.io): se lanza con `[sudo] npm install -g bower`
 
-To get started run:
+Para comenzar, se lanza esta línea:
 
 `npm install && bower install && grunt watch`
 
 
-Templates
+Plantillas
 ---------
 
-**Homepage**
+**Página de inicio**
 
-The homepage template is a regular full-width content page. Use the `[latestposts]` shortcode to display the latest blog posts.
+La plantilla de la página de inicio es una página de contenido de ancho completo. Se utiliza el atajo `[latestposts]` para mostras las últimas entradas publicadas.
 
 
-Shortcodes
+Atajos
 ----------
 
-**Latest Blog Posts**
+**Últimas entradas**
 
-To add a 3-column row of the latest blog posts, use:
+Para añadir una fila de tres-columnas de las últimas entradas del blog, se utiliza:
 
   `[latestposts]`
 
-To change the section heading from the default 'Latest posts from the blog', pass in a title="" parameter:
+Para cambiar el encabezamiento predeterminado que dice 'Latest posts from the blog', se escribe el atributo title en el parámetro `[latestposts]`:
 
-`[latestposts title="Recent Posts"]`
+`[latestposts title="Mi encabezamiento"]`
